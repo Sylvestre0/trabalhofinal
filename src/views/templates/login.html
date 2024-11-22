@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Css/login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="../Js/login.js" defer></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <main>
+        <div class="first-content">
+            <div class="first-column">
+                <h2>welcome back!</h2>
+                <p>To keep connected with us</p>
+                <p>please login with your personal info</p>
+                <span id="signin">sign in</span>
+            </div>    
+            <div class="second-column">
+                <h2 class="title-second">create account</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="description">or use your email for registration:</p>
+                <form id="create">
+                    <label for="name">
+                        <i class="far fa-user"></i>
+                        <input type="text" placeholder="Name" id="name">
+                    </label>
+                    <label for="email">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="email">
+                    </label>
+                    <label for="password">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" id="password">
+                    </label>    
+                    <button id="createAccont">Sign Up</button>        
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="second-content">
+            <div class="first-column">
+                <h2>hello, friend!</h2>
+                <p>Enter your personal details</p>
+                <p>and start journey with us</p>
+                <span id="signup">sign up</span>
+            </div>
+            <div class="second-column">
+                <h2 class="title-second">sign in to developer</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description">or use your email account:</p>
+                <form id="login">
+                    <label for="loginEmail">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="loginEmail">
+                    </label>
+                    <label for="loginPassword">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" id="loginPassword">
+                    </label>
+                    <a class="password" href="#">forgot your password?</a>
+                    <button id="openAccont">sign in</button>
+                </form>
+            </div><!-- second column -->
+        </div><!-- second-content -->
+    </main>
+</body>
+</html>
